@@ -138,7 +138,7 @@ header .navbar-collapse ul.navbar-nav {
 }
 
 header .navbar-default {
-    background-color: #fff;
+    background-color: #2b542c;
 }
 
 header .nav li a:hover,
@@ -2002,4 +2002,28 @@ article img.pull-right, article .align-right {
 
 .weekly-schedule {
     padding-bottom: 10px;
+}
+
+.button-center {
+    text-align: center;
+}
+
+.section-1 {
+    background-color: white;
+}
+
+.section-2 {
+    background-color: black;
+}
+
+.section-3 {
+    background-color: blue;
+}
+
+.section-4 {
+    background-color: inherit;
+}
+
+.section-5 {
+    background-color: inherit;
 }
