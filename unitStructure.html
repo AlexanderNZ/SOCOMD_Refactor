@@ -140,12 +140,14 @@
             <div>
                 <h3 class="text-center">Command Appointments</h3>
 
+                <div id="tree"></div>
+
                 <script>
 
                     // ************** Generate the tree diagram	 *****************
-                    var margin = {top: 100, right: 1000, bottom: 20, left: 540},
-                            width = 2000 - margin.right - margin.left,
-                            height = 800 - margin.top - margin.bottom;
+                    var margin = {top: 30, right: 20, bottom: 30, left: 0},
+                            width = 1500 - margin.left - margin.right,
+                            height = 1500 - margin.top - margin.bottom;
 
                     var i = 0,
                             duration = 750,
@@ -159,15 +161,15 @@
                                 return [d.x, d.y];
                             });
 
-                    var svg = d3.select("body").append("svg")
-                            .attr("width", width + margin.right + margin.left)
+                    var svg = d3.select("#tree").append("svg")
+                            .attr("width", width + margin.left + margin.right)
                             .attr("height", height + margin.top + margin.bottom)
                             .append("g")
                             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
                     d3.json("treeData.json", function (error, treeData) {
                         root = treeData[0];
-                        root.x0 = height / 2;
+                        root.x0 = 0;
                         root.y0 = 0;
                         update(root);
                     });
@@ -185,7 +187,7 @@
 
                         // Normalize for fixed-depth.
                         nodes.forEach(function (d) {
-                            d.y = d.depth * 180;
+                            d.y = d.depth * 100;
                         });
 
                         // Update the nodes…
@@ -239,7 +241,7 @@
                         var nodeExit = node.exit().transition()
                                 .duration(duration)
                                 .attr("transform", function (d) {
-                                    return "translate(" + source.y + "," + source.x + ")";
+                                    return "translate(" + source.x + "," + source.y + ")";
                                 })
                                 .remove();
 

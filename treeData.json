@@ -4,7 +4,7 @@
     "parent": "null",
     "children": [
       {
-        "name": "XO: COL Watudube",
+        "name": "SOCOMD HQ",
         "parent": "CO: BRIG Freeo",
         "children": [
           {
@@ -108,6 +108,413 @@
             ]
           }
         ]
+      },
+      {
+        "name": "2 CDO",
+        "parent": "CO: BRIG Freeo",
+        "children": [
+          {
+            "name": "2 CDO HQ",
+            "parent": "2 CDO",
+            "children": [
+              {
+                "name": "2CDO CO",
+                "parent": "2 CDO HQ",
+                "children": [
+                  {
+                    "name": "2 CDO XO",
+                    "parent": "2CDO CO"
+                  },
+                  {
+                    "name": "2 CDO RSM",
+                    "parent": "2CDO CO"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "A COY",
+            "parent": "XO: COL Watudube",
+            "children": [
+              {
+                "name": "1 PL",
+                "parent": "A COY",
+                "children": [
+                  {
+                    "name": "1 PL HQ",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "1 PLT COMD",
+                        "parent": "1 PL HQ",
+                        "children": [
+                          {
+                            "name": "1 PLT SGT",
+                            "parent": "1 PLT COMD"
+                          },
+                          {
+                            "name": "PL SIG",
+                            "parent": "1 PLT COMD"
+                          },
+                          {
+                            "name": "PL MEDIC",
+                            "parent": "1 PLT COMD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "1 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "1 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "2 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "3 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "3 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "2 PL",
+                "parent": "A COY",
+                "children": [
+                  {
+                    "name": "2 PL HQ",
+                    "parent": "2 PL",
+                    "children": [
+                      {
+                        "name": "J2 Staff: Vacant",
+                        "parent": "DSO: Vacant"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "1 SEC",
+                    "parent": "2 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "1 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "2 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "3 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "3 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "3 PL",
+                "parent": "A COY",
+                "children": [
+                  {
+                    "name": "3 PL HQ",
+                    "parent": "3 PL",
+                    "children": [
+                      {
+                        "name": "J2 Staff: Vacant",
+                        "parent": "DSO: Vacant"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "1 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "1 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "2 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "2 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "3 SEC",
+                    "parent": "1 PL",
+                    "children": [
+                      {
+                        "name": "SEC COMD",
+                        "parent": "3 SEC",
+                        "children": [
+                          {
+                            "name": "SEC 2IC",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "SAPPER",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "LIGHT AT MKSMN",
+                            "parent": "SEC COMD"
+                          },
+                          {
+                            "name": "Medic",
+                            "parent": "AUTO RFN"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SPT SEC",
+                "parent": "A COY",
+                "children": [
+                  {
+                    "name": "SPT SEC COMD",
+                    "parent": "SPT SEC",
+                    "children": [
+                      {
+                        "name": "HVY WPN SPEC",
+                        "parent": "SPT SEC COMD"
+                      },
+                      {
+                        "name": "HVY WPN ASST",
+                        "parent": "SPT SEC COMD"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "XO: COL Watudube",
+        "parent": "CO: BRIG Freeo",
+        "children": []
       }
     ]
   }
