@@ -1,0 +1,114 @@
+[
+  {
+    "name": "CO: BRIG Freeo",
+    "parent": "null",
+    "children": [
+      {
+        "name": "XO: COL Watudube",
+        "parent": "CO: BRIG Freeo",
+        "children": [
+          {
+            "name": "J1",
+            "parent": "XO: COL Watudube",
+            "children": [
+              {
+                "name": "J1 SSO: CAPT Shorty",
+                "parent": "J1",
+                "children": [
+                  {
+                    "name": "DSO: Vacant",
+                    "parent": "J1 SSO: CAPT Shorty",
+                    "children": [
+                      {
+                        "name": "J1 Staff: Vacant",
+                        "parent": "DSO: Vacant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "J2",
+            "parent": "XO: COL Watudube",
+            "children": [
+              {
+                "name": "J2 SSO: COL Watudube",
+                "parent": "J2",
+                "children": [
+                  {
+                    "name": "DSO: Vacant",
+                    "parent": "J2 SSO: COL Watudube",
+                    "children": [
+                      {
+                        "name": "J2 Staff: Vacant",
+                        "parent": "DSO: Vacant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "J3",
+            "parent": "XO: COL Watudube",
+            "children": [
+              {
+                "name": "J3 SSO: COL Watudube",
+                "parent": "J3",
+                "children": [
+                  {
+                    "name": "DSO: Vacant",
+                    "parent": "J3 SSO: COL Watudube",
+                    "children": [
+                      {
+                        "name": "J3 Staff: Vacant",
+                        "parent": "DSO: Vacant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "J4",
+            "parent": "XO: COL Watudube",
+            "children": [
+              {
+                "name": "J4 SSO: CAPT Red Horizon",
+                "parent": "J4",
+                "children": [
+                  {
+                    "name": "DSO: LT Chain",
+                    "parent": "J4 SSO: CAPT Red Horizon",
+                    "children": [
+                      {
+                        "name": "J4 Staff: SGT Seth",
+                        "parent": "DSO: LT Chain"
+                      },
+                      {
+                        "name": "J4 Staff: CPL Btodan",
+                        "parent": "DSO: LT Chain"
+                      },
+                      {
+                        "name": "J4 Staff: LCPL HAIL",
+                        "parent": "DSO: LT Chain"
+                      },
+                      {
+                        "name": "J4 Staff: LCPL Alex",
+                        "parent": "DSO: LT Chain"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
